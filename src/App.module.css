@@ -1,0 +1,112 @@
+.leftImage{
+  width: 50px;
+}
+.main {
+  display: flex;
+  height: 100vh; /* Optional: makes full screen */
+  background-color: #777;
+}
+
+.left {
+  width: 3%;
+  background-color: #f5f5f5; /* optional */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  overflow-y: auto;
+  gap: 20rem;
+}
+.signoff{
+  display: flex;
+  flex-direction: column;
+  gap:1rem ;
+}
+
+.right {
+  width: 90%;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #777;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10rem;
+}
+
+.leftImage {
+  width: 100%; /* or a fixed width like 50px */
+  border-radius: 5px;
+}
+.elementSection {
+  width: 60%;
+  margin: 0 auto; /* centers the table horizontally */
+  margin-left: 0;
+}
+
+.top {
+  padding: 10px 30px;
+  background: linear-gradient(to right, rgba(10, 10, 10, 0.8), rgba(0, 0, 0, 0.2));
+  color: white;
+  font-family: 'Arial', sans-serif;
+  width: 60%;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: #aaa;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.arrow {
+  margin-right: 8px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.separator {
+  margin: 0 5px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.active {
+  color: white;
+}
+
+.inactive {
+  color: #777;
+}
+
+.hr {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 60px;
+  height: 2px;
+  background-color: white;
+}
+
